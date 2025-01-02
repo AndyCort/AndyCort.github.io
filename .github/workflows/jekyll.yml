@@ -34,7 +34,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
-    
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3' # Not needed with a .ruby-version file
